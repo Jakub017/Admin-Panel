@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="pl">
+<html lang="en">
 
 <head>
 
     <meta charset="utf-8" />
-    <title>Panel administracyjny | Strona Główna</title>
+    <title>Strona Główna | Panel administracyjny</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesdesign" name="author" />
+    <meta content="Jakub Lipiński - Panel administracyjny" name="description" />
+    <meta content="Jakub Lipiński" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.ico') }}">
 
     <!-- jquery.vectormap css -->
-    <link href="{{asset('backend/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css')}}"
+    <link href="{{ asset('backend/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css') }}"
         rel="stylesheet" type="text/css" />
 
     <!-- DataTables -->
@@ -98,7 +98,7 @@
                 </div>
                 <div class="form-check form-switch mb-3">
                     <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch"
-                        data-bsStyle="{{ asset('backend/assets/css/bootstrap-dark.min.css') }}"
+                        data-bsStyle="{{ asset('backend/assets/css/bootstrap-dark.min.cs') }}s"
                         data-appStyle="{{ asset('backend/assets/css/app-dark.min.css') }}">
                     <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
                 </div>
