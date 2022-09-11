@@ -10,14 +10,15 @@
                     <center>
                         <br>
                         <img class="rounded-circle avatar-xl" alt="200x200"
-                            src="{{ asset('backend/assets/images/users/avatar-4.jpg') }}" data-holder-rendered="true">
+                            src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image) : url('upload/no_image.jpg') }}"
+                            data-holder-rendered="true">
                         <br>
                     </center>
                     <div class="card-body account-info">
                         <h4 class="card-title">{{ $adminData->name }} ({{ $adminData->username }})</h4>
                         <p>Email: {{$adminData->email}}</p>
-                        <a href="{{ route('edit.profile') }}"
-                            class="btn btn-info btn-rounden waves-effect waves-light">Edytuj profil</a>
+                        <a href="{{ route('edit.profile') }}" class="btn btn-info waves-effect waves-light">Edytuj
+                            profil</a>
                     </div>
                 </div>
 
