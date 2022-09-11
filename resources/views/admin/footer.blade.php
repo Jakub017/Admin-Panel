@@ -5,7 +5,7 @@
                 <script>
                     document.write(new Date().getFullYear())
 
-                </script> © Panel administracyjny wersja 0.2.0
+                </script> © Panel administracyjny wersja 1.1
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
